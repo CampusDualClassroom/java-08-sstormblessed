@@ -12,6 +12,10 @@ public class Exercise08 {
     // X+1 < Y. El próximo ciclo valdrá: X+2
     // etc.
     public static void whileLoop(int num) {
-
+        int n1 = 0;
+        while (n1 < num) {
+            System.out.println(n1 + " < " + num + ". El proximo ciclo valdra: " + (n1 + 1));
+            n1++;
+        }
     }
 }
